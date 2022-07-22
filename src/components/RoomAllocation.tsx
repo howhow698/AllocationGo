@@ -56,7 +56,7 @@ function RoomAllocation({ guest, room, onChange }: RoomAllocationProps) {
   return (
     <div className="border border-dashed w-[24rem] px-3">
       <div className="text-xl font-bold">
-        住客人數：{guest} 人／{room} 房
+        住客人數：{guest} 人／{roomsResult.length} 房
       </div>
       <div className="border border-primary bg-secondary h-16 my-4 pl-4 flex items-center">
         <div>尚未分配人數：{totalRemainPeople} 人</div>
